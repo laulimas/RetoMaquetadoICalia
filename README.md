@@ -1,6 +1,7 @@
-# Card-style UI kit
+# Reto maquetado Icalia
 
 Debes desarrollar todo el home de un blog usando html y sass, se recomienda usar la técnica de css grid.
+Para clonar el proyecto tienes que hacer un *Fork* que esta en la parte superior derecha, consiguiente se creara una copia en tu cuenta Github para que puedas clonar a tu maquina.
 
 ## Tareas
 
@@ -24,3 +25,6 @@ Debes desarrollar todo el home de un blog usando html y sass, se recomienda usar
 - Tienes 3 comodines para preguntarme sobre alguna duda respecto al proyecto
 
 - Recuerda que tus mejores aliados son la documentación y saber preguntar a Google (*No tienes que saber todo, tienes que saber preguntar*)
+
+
+¡Que la fuerza de acompañe!
