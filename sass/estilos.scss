@@ -1,3 +1,5 @@
+$color-dark: #FF565C;
+
 body {
     margin-left: 38px;
 }
@@ -5,7 +7,6 @@ body {
 .menu {
     display: flex;
     align-items: center;
-
 }
 
 .menu--links {
@@ -13,7 +14,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 
 .menu_links--a {
     display: flex;
