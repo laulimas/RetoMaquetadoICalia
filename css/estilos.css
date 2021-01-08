@@ -28,6 +28,24 @@ body {
   grid-auto-rows: minmax(346px, auto);
 }
 
+.flex-2 {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(12, 3fr);
+  grid-auto-rows: minmax(346px, auto);
+}
+
+.flex-3 {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(12, 3fr);
+  grid-auto-rows: minmax(346px, auto);
+}
+
+.card {
+  position: relative;
+}
+
 .card-container-title {
   font-family: "Lato", sans-serif;
 }
