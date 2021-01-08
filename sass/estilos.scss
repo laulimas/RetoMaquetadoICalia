@@ -22,6 +22,9 @@ body {
     justify-content: center;
     padding: 28px;
     font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #1D1F24;
+    text-decoration:none;
 }
 
 .flex {
@@ -40,6 +43,7 @@ body {
     display: grid;
     grid-gap: 32px;
     grid-template-columns: repeat(12, 3fr);
+    
 }
 
 .card {
@@ -49,6 +53,7 @@ body {
 
 .card-container-title {
     font-family: 'Lato', sans-serif;
+    font-size: 26px;
 }
 
 .card-container-text {
@@ -62,6 +67,7 @@ body {
     justify-content: center;
     padding: 28px;
     font-family: 'Oswald', sans-serif;
+    
 }
 
 footer {
