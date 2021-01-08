@@ -7,7 +7,7 @@ body {
   align-items: center;
 }
 
-.menu-links {
+.menu-nav {
   list-style-type: none;
   display: flex;
   justify-content: center;
@@ -25,25 +25,23 @@ body {
   display: grid;
   grid-gap: 32px;
   grid-template-columns: repeat(12, 4fr);
-  grid-auto-rows: minmax(346px, auto);
 }
 
 .flex-2 {
   display: grid;
   grid-gap: 32px;
   grid-template-columns: repeat(12, 3fr);
-  grid-auto-rows: minmax(346px, auto);
 }
 
 .flex-3 {
   display: grid;
   grid-gap: 32px;
   grid-template-columns: repeat(12, 3fr);
-  grid-auto-rows: minmax(346px, auto);
 }
 
 .card {
-  position: relative;
+  min-height: 436px;
+  padding-bottom: 60px;
 }
 
 .card-container-title {
@@ -52,6 +50,41 @@ body {
 
 .card-container-text {
   font-family: "Oswald", sans-serif;
+}
+
+.menu_links-b {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 28px;
+  font-family: "Oswald", sans-serif;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-registro {
+  margin: 38px;
+}
+
+.footer-text {
+  color: blanchedalmond;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=estilos.css.map */
