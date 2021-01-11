@@ -1,20 +1,33 @@
 $color-dark: #FF565C;
 
 body {
-    margin-left: 38px;
+   margin: 0px;
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 90px;
+    box-shadow: 0px 3px 4px 1px rgba(84, 84, 84, 0.42);
 }
 
 .menu {
+    margin-left: 38px;
     display: flex;
     align-items: center;
+    height: 90px;
+}
+
+.burguer {
+    margin-right: 38px;
 }
 
 .menu-nav {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    
 }
 
 .menu_links-a {
@@ -24,16 +37,19 @@ body {
     padding: 28px;
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    color: #1D1F24;
+    color: #D2D2D3;
     text-decoration:none;
 }
 
+
 .flexes {
+    margin-top: 42px;
+    margin-right: 38px;
+    margin-left: 38px;
     display: grid;
     grid-gap: 32px;
     grid-template-columns: repeat(12, 4fr);
 }
-
 
 .card {
     min-height: 436px;
