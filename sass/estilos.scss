@@ -100,7 +100,6 @@ footer {
 
 }
 
-
 .logo-registro {
     margin: 38px;
 }
@@ -113,7 +112,7 @@ footer {
 }
 
 .footer-socialmedia {
-    padding-left: 400px;
+    padding-left: 200px;
     display: flex;
     justify-content: row;
     align-items: center;
@@ -123,3 +122,9 @@ footer {
     height: 16px;
     padding-left: 18px;
 }
+
+.footer-output {
+    display: flex;
+    justify-content: row;
+}
+
